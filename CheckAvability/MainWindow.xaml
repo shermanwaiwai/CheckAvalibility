@@ -1,0 +1,19 @@
+﻿<Window x:Class="CheckAvability.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CheckAvability"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="1229.538">
+    <Grid>
+        <DataGrid x:Name="IphonedataGrid" HorizontalAlignment="Left" Margin="32,23,0,0" VerticalAlignment="Top" Height="133" Width="1031"/>
+
+        <DataGrid x:Name="IphonePlusdataGrid" HorizontalAlignment="Left" Margin="32,173,0,0" VerticalAlignment="Top" RenderTransformOrigin="-22.266,0.264" Height="128" Width="1031"/>
+        <Button x:Name="btn_Start" Content="Start" HorizontalAlignment="Left" Margin="1107,98,0,0" VerticalAlignment="Top" Width="75" Click="btn_Start_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="1107,57,0,0" TextWrapping="Wrap" Text="15" VerticalAlignment="Top" Width="86"/>
+        <Label x:Name="label" Content="Second To Refresh" HorizontalAlignment="Left" Margin="1096,23,0,0" VerticalAlignment="Top" Width="106"/>
+        <Button x:Name="btnAuth" Content="Login" HorizontalAlignment="Left" Margin="1107,183,0,0" VerticalAlignment="Top" Width="75" Height="24" Click="btnAuth_Click"/>
+
+    </Grid>
+</Window>
